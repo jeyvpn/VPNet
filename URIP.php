@@ -7,9 +7,9 @@
 \pard\pardeftab720\partightenfactor0
 
 \f0\fs26 \cf0 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 <?php\
+<?php\
 \
-echo "Your IP is";\
+echo \'93\uc0\u1570 \u1740 \u8204 \u1662 \u1740  \u1588 \u1605 \u1575 : \'94;\
 \
 echo $_SERVER["REMOTE_ADDR"];\
 \
