@@ -35,7 +35,13 @@
                     <div class="col-md-9">
                         <!-- Header info -->
                         <ul class="header-info list-inline text-white mb-md-0">
-                            <li><?php include('URIP.php') ?></li>
+                            <li><script type="application/javascript">
+  function getIP(json) {
+    document.write("My public IP address is: ", json.ip);
+  }
+</script>
+
+<script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP"></script></li>
                             <li>مکان شما: ایران</li>
                             <li>وضعیت: <span>غیر امن</span></li>
                         </ul>
