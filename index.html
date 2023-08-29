@@ -37,7 +37,21 @@
                         <ul class="header-info list-inline text-white mb-md-0">
                             <li><script type="application/javascript">
   function getIP(json) {
-    document.write("آی‌پی شما: ", json.ip);
+    document.write("Your IP: ", json.ip);
+  }
+</script>
+
+<script type="application/javascript" src="https://api.ipify.org?format=jsonp&amp;callback=getIP"></script></li>
+                          <li><script type="application/javascript">
+  function getcountry(json) {
+    document.write("Your Country: ", json.country);
+  }
+</script>
+
+<script type="application/javascript" src="https://api.ipify.org?format=jsonp&amp;callback=getIP"></script></li>
+                          <li><script type="application/javascript">
+  function getvpn(json) {
+    document.write("Protection: ", json.vpn);
   }
 </script>
 
