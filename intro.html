@@ -1,17 +1,18 @@
 <!DOCTYPE html>
-<html lang="en" dir="rtl">
+<html lang="fa" dir="rtl">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Document Title -->
-    <title>VPNet</title>
+    <title>JVPN</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/png" href="favicon.png">
 
     <!-- CSS Files -->
     <link href="https://fonts.googleapis.com/css?family=Cabin:400,400i,500i,700%7CRoboto:400,500,700" rel="stylesheet">
+    <link href="https://github.com/hamid80386/iran-sans/blob/master/iran-sans.css?family=Cabin:400,400i,500i,700%7CRoboto:400,500,700" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap-rtl.min.css">
     <link rel="stylesheet" href="plugins/swiper/swiper.min.css">
     <link rel="stylesheet" href="plugins/magnific-popup/magnific-popup.min.css">
@@ -34,19 +35,16 @@
                     <div class="col-md-9">
                         <!-- Header info -->
                         <ul class="header-info list-inline text-white mb-md-0">
-                            <li>Your IP : 192.168.0.102</li>
-                            <li>Your Location : Dhaka, Bangladesh</li>
-                            <li>Your Status : <span>Unprotected</span></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3 d-none d-md-block">
-                        <!-- Header social icons -->
-                        <ul class="social-icons text-right list-inline m-0">
-                            <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fab fa-google-plus-g"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fab fa-vimeo-v"></i></a></li>
+                            <li><script type="application/javascript">
+  function getIP(json) {
+    document.write("آی‌پی شما: ", json.ip);
+  }
+</script>
+
+<script type="application/javascript" src="https://api.ipify.org?format=jsonp&amp;callback=getIP"></script></li>
+                          
+                          <li>مکان شما: ایران</li>
+                            <li>وضعیت: <span>غیر امن</span></li>
                         </ul>
                     </div>
                 </div>
@@ -60,7 +58,7 @@
                         <!-- Logo -->
                         <div class="logo" data-animate="fadeInUp" data-delay=".7">
                             <a href="index.html">
-                                <img src="img/logo.png" alt="VPNet">
+                                <img src="img/logo.png" alt="JVPN">
                             </a>
                         </div>
                     </div>
@@ -69,39 +67,8 @@
                             <!-- Header-menu -->
                             <div class="header-menu">
                                 <ul>
-                                    <li><a href="home.html">Home</a></li>
-                                    <li><a href="http://billing.ywhmcs.com/?systpl=VPNet">WHMCS</a></li>
-                                    <li>
-                                        <a href="#">Pages <i class="fas fa-caret-down"></i></a>
-                                        <ul>
-                                            <li><a href="about.html">About</a></li>
-                                            <li>
-                                                <a href="#">Team Members <i class="fas fa-caret-right"></i></a>
-                                                <ul>
-                                                    <li><a href="team-grid-3.html">3 Columns</a></li>
-                                                    <li><a href="team-grid-4.html">4 Columns</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="affiliate.html">Affiliate Program</a></li>
-                                            <li><a href="pricing.html">Pricing Plans</a></li>
-                                            <li><a href="testimonials.html">Testimonials</a></li>
-                                            <li><a href="service-details.html">Service Details</a></li>
-                                            <li><a href="404.html">404</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="#">Blog <i class="fas fa-caret-down"></i></a>
-                                        <ul>
-                                            <li><a href="blog.html">Full Width</a></li>
-                                            <li><a href="blog-sidebar-left.html">Blog Sidebar Left</a></li>
-                                            <li><a href="blog-sidebar-right.html">Blog Sidebar Right</a></li>
-                                            <li><a href="blog-2-columns.html">2 Columns Blog</a></li>
-                                            <li><a href="blog-3-columns.html">3 Columns Blog</a></li>
-                                            <li><a href="blog-details.html">Blog Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="faq.html">FAQ</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li class="active"><a href="index.html">خانه</a></li>
+                                    <li class="active"><a href="https://t.me/JEYVPN">تماس با ما</a></li>
                                 </ul>
                             </div>
                             <!-- End of Header-menu -->
@@ -109,16 +76,8 @@
                     </div>
                     <div class="col-lg-3 col-md-4 col-sm-6 d-none d-sm-block">
                         <!-- Client area -->
-                        <ul class="client-area text-right list-inline m-0" data-animate="fadeInUp" data-delay="1.1">
-                            <li class="dropdown">
-                                <a href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">My Account <i class="fas fa-caret-down"></i></a>
-                                <ul class="dropdown-menu dropdown-menu-right client-links " aria-labelledby="dropdownMenuLink">
-                                    <li><a href="#">Sign In</a></li>
-                                    <li><a href="#">Sign Up</a></li>
-                                </ul>
-                            </li>
-                            <li><a class="btn btn-secondary" href="http://billing.ywhmcs.com/clientarea.php?systpl=VPNet">Try It Free</a></li>
-                        </ul>
+                        <ul class="client-area text-right list-inline m-0" data-animate="fadeInUp" data-delay="1.1"></ul>
+                            <li><a class="btn btn-secondary" href="https://t.me/jayvpnbot">اکانت رایگان</a></li>
                     </div>
                 </div>
             </div>
@@ -526,102 +485,23 @@
                 <!-- Footer info -->
                 <div class="col-md-4">
                     <div class="footer-info">
-                        <h3 class="text-white" data-animate="fadeInUp" data-delay="0">About Us</h3>
-                        <p data-animate="fadeInUp" data-delay=".05">We are here to you how all this mistaken idea of denouncing pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful.</p>
-                        <ul class="footer-contacts list-unstyled">
-                            <li data-animate="fadeInUp" data-delay=".1">
-                                <i class="fas fa-phone"></i>
-                                <a href="tel:+9876543210">(+9) 876-543-210</a>, 
-                                <a href="tel:+123456789">(+1) 234-567-890</a>
-                            </li>
-                            <li data-animate="fadeInUp" data-delay=".15">
-                                <i class="fas fa-envelope"></i>
-                                <a href="mailto:info.vpnet@yourmail.com">info.vpnet@yourmail.com</a>
-                            </li>
-                            <li data-animate="fadeInUp" data-delay=".2">
-                                <i class="fas fa-map-marker-alt"></i>
-                                <span>4749 West Street, Stadium Para, Maijdee Court, Noakhali-3800, Bangladesh</span>
-                            </li>
-                        </ul>
+                        <h3 class="text-white" data-animate="fadeInUp" data-delay="0">درباره ما</h3>
+                        <p data-animate="fadeInUp" data-delay=".05">JVPN یک سرویس وی‌پی‌ان با سرعت اتصال بسیار بالا همراه با پایداری در اتصال متناسب با تمامی اپراتورها و دیوایس‌های موجود است که ضمن امنیت فوق العاده بالا به صورت ۲۴ ساعته پشتیبانی می‌شود و شما می‌توانید قبل از خرید با دریافت اکانت تست از کیفیت سرویس‌های ما اطمینان حاصل نمایید</p>
                         <ul class="social-links list-inline mb-0">
-                            <li data-animate="fadeInUp" data-delay=".25"><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                            <li data-animate="fadeInUp" data-delay=".3"><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                            <li data-animate="fadeInUp" data-delay=".35"><a href="#" target="_blank"><i class="fab fa-google-plus-g"></i></a></li>
-                            <li data-animate="fadeInUp" data-delay=".4"><a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-                            <li data-animate="fadeInUp" data-delay=".45"><a href="#" target="_blank"><i class="fas fa-rss"></i></a></li>
-                            <li data-animate="fadeInUp" data-delay=".5"><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                            <li data-animate="fadeInUp" data-delay=".25"><a href="https://t.me/JEYVPN" target="_blank"><i class="fab fa-telegram"></i></a></li>
+                         
                         </ul>
                     </div>
                 </div>
                 <!-- End of Footer info -->
-
-                <!-- Footer posts -->
-                <div class="col-md-4">
-                    <div class="footer-posts">
-                        <h3 class="text-white" data-animate="fadeInUp" data-delay=".5">Latest News/Blogs</h3>
-                        <div class="single-footer-post clearfix" data-animate="fadeInUp" data-delay=".55">
-                            <a href="#" class="float-left">
-                                <img src="img/posts/post-t.png" alt="">
-                            </a>
-                            <span>Posted on <a href="#">Jan 19, 2017</a></span>
-                            <h4 class="cabin font-weight-normal"><a href="#">In major hiring push web hosting</a></h4>
-                            <p>Expand its civil service aviations web hosting powerhouse go daddy.</p>
-                        </div>
-
-                        <div class="single-footer-post clearfix" data-animate="fadeInUp" data-delay=".6">
-                            <a href="#" class="float-left">
-                                <img src="img/posts/post-t2.png" alt="">
-                            </a>
-                            <span>Posted on <a href="#">Jan 19, 2017</a></span>
-                            <h4 class="cabin font-weight-normal"><a href="#">Lorem ipsum dolor sit consectetur.</a></h4>
-                            <p>Expand its civil service aviations web hosting powerhouse go daddy.</p>
-                        </div>
-                        <a href="blog.html" class="roboto text-uppercase" data-animate="fadeInUp" data-delay=".65">View All Blog Posts <i class="fas fa-caret-right"></i></a>
-                    </div>
-                </div>
-                <!-- End of Footer posts -->
-                
-                <!-- Footer newsletter -->
-                <div class="col-md-4">
-                    <div class="footer-newsletter">
-                        <h3 class="text-white" data-animate="fadeInUp" data-delay=".65">Newsletter</h3>
-                        <p data-animate="fadeInUp" data-delay=".7">In major hiring push, web hosting powerhouse go daddy to expand its civil service aviations</p>
-                        <form action="https://themelooks.us13.list-manage.com/subscribe/post?u=79f0b132ec25ee223bb41835f&amp;id=f4e0e93d1d" method="post" name="mc-embedded-subscribe-form" target="_blank">
-                            <div class="form-group" data-animate="fadeInUp" data-delay=".75">
-                                <input class="form-control" type="email" name="EMAIL" placeholder="Enter Your E-mail Address" required>
-                            </div>
-                            <div class="subscribe-submit form-group clearfix mb-0" data-animate="fadeInUp" data-delay=".8">
-                                <button class="btn btn-primary btn-square float-left" type="submit">Subscribe</button>
-                                <span>Don’t worry! <br>Your e-mail won’t be published.</span>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-                <!-- End of Footer newsletter -->
-            </div>
             
             <div class="bottom-footer">
                 <div class="row">
                     <!-- Copyright -->
                     <div class="col-md-5 order-last order-md-first">
-                        <p class="copyright" data-animate="fadeInDown" data-delay=".85">&copy; Copyright 2018 <a href="#">VPNet.com</a></p>
+                        <p class="copyright" data-animate="fadeInDown" data-delay=".85">&copy; Copyright 2023 <a href="https://www.jvpn.store/">JVPN.store</a></p>
                     </div>
 
-                    <!-- Footer menu -->
-                    <div class="col-md-7 order-first order-md-last">
-                        <ul class="footer-menu list-inline text-md-right mb-md-0" data-animate="fadeInDown" data-delay=".95">
-                            <li><a href="#">Afilliate</a></li>
-                            <li>|</li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li>|</li>
-                            <li><a href="#">Termns & Conditions</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- End of Footer -->
 
     <!-- Back to top -->
     <div class="back-to-top">
